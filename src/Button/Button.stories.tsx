@@ -17,7 +17,6 @@ WithButton.storyName = "With button";
 WithButton.args = {
   title: "Welcome to my App",
   buttonText: "Sign in",
-  hideButton: false,
   onButtonPress: () => Alert.alert("Signed in"),
 };
 
@@ -27,6 +26,5 @@ WithoutButton.storyName = "Without button";
 WithoutButton.args = {
   title: "Welcome to my App",
   buttonText: "Sign in",
-  hideButton: true,
   onButtonPress: () => Alert.alert("Signed in"),
 };

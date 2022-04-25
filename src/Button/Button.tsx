@@ -12,8 +12,8 @@ const Button: React.FC<ButtonProps> = (props) => {
 
   return (
     <View>
-      <Text style={styles.title}></Text>
-      <ButtonRN title={buttonText} onPress={onButtonPress}></ButtonRN>
+      <Text style={styles.title}>{title}</Text>
+      <ButtonRN title={buttonText} onPress={onButtonPress} />
     </View>
   );
 };
